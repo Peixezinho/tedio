@@ -1,0 +1,123 @@
+/* Reset básico para garantir que a página tenha um visual consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #202528;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1rem;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section.day {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section.day h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  section.day p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  section.day ul {
+    list-style-type: none;
+  }
+  
+  section.day li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #202528;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 0.9rem;
+    }
+  
+    section.day h2 {
+      font-size: 1.5rem;
+    }
+  
+    section.day p {
+      font-size: 1rem;
+    }
+  
+    section.day li {
+      font-size: 1rem;
+    }
+  
+    footer {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.6rem;
+    }
+  
+    header p {
+      font-size: 0.8rem;
+    }
+  
+    section.day {
+      padding: 15px;
+    }
+  
+    section.day h2 {
+      font-size: 1.3rem;
+    }
+  
+    section.day p, section.day li {
+      font-size: 0.9rem;
+    }
+  
+    footer {
+      font-size: 0.8rem;
+    }
+  }
+  
